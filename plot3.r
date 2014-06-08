@@ -1,3 +1,4 @@
+setwd("/Users/loganfrederick/")
 data <- read.table("Projects/Coursera Johns Hopkins Data Science/Exploratory Data Analysis/household_power_consumption.txt", header=T, sep=";")
 
 newDates=as.Date(data[,1],format='%d/%m/%Y')
